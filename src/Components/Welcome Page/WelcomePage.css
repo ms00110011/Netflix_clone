@@ -58,3 +58,28 @@
 
     font-size: 20px;
 }
+
+.EmailInput {
+  display: flex;
+  align-items: center;
+}
+
+.Started__Button {
+  background-color: #d30813;
+  height: 56px;
+  width: 20%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+.EmailInput {
+justify-content: center;
+margin-top: 20px;
+}
+
+.Started__Button:hover {
+  background-color: #ff0915;
+}
