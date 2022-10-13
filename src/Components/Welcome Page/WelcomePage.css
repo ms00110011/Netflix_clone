@@ -1,8 +1,13 @@
 .Banner1 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.42)),
-  url(https://assets.nflxext.com/ffe/siteui/vlv3/afc06103-4d6a-4236-b496-34b671a7e9ba/383fc36a-aa04-4dfd-95a0-a4b71bc21eed/IN-en-20221003-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.699),
+      rgba(0, 0, 0, 0.42)
+    ),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/afc06103-4d6a-4236-b496-34b671a7e9ba/383fc36a-aa04-4dfd-95a0-a4b71bc21eed/IN-en-20221003-popsignuptwoweeks-perspective_alpha_website_large.jpg);
   height: 601px;
   background-size: cover;
+  border-bottom: 8px solid #222222;
 }
 
 .SignIn__button {
@@ -30,33 +35,33 @@
 }
 
 .StoryCard {
-    width: 50%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .StoryCard1 {
-    font-size: 52px;
-    font-weight: 700;
-    line-height: 3.3rem;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 3.3rem;
 }
 
 .StoryCard2 {
-    padding-top: 20px;
-    font-size: 26px;
+  padding-top: 20px;
+  font-size: 26px;
 }
 
 .StoryCard3 {
-    padding-top: 20px;
+  padding-top: 20px;
 
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .EmailInput {
@@ -76,10 +81,50 @@
 }
 
 .EmailInput {
-justify-content: center;
-margin-top: 20px;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .Started__Button:hover {
   background-color: #ff0915;
+}
+
+.Banner2 {
+  color: white;
+  /* width: 80%; */
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-top:100px; */
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 8px solid #222222;
+  /* height: 500px; */
+}
+
+.Banner_text > h1 {
+  font-size: 48px;
+}
+
+.Banner_text > p {
+  font-size: 28px;
+}
+
+.Banner_text {
+  width: 70%;
+  padding-left: 90px;
+  padding-top: 100px;
+}
+
+.Banner_media > img {
+  position: relative;
+  bottom: 376px;
+  right: 0;
+}
+
+.Banner_media > video {
+  width: 480px;
+  height: 290px;
+  padding-top: 100px;
+  padding-left: 80px;
 }
