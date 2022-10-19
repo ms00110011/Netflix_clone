@@ -2,7 +2,7 @@
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.699),
-      rgba(0, 0, 0, 0.42)
+      rgba(0, 0, 0, 0.584)
     ),
     url(https://assets.nflxext.com/ffe/siteui/vlv3/afc06103-4d6a-4236-b496-34b671a7e9ba/383fc36a-aa04-4dfd-95a0-a4b71bc21eed/IN-en-20221003-popsignuptwoweeks-perspective_alpha_website_large.jpg);
   height: 601px;
@@ -91,29 +91,31 @@
 
 .Banner2 {
   color: white;
-  /* width: 80%; */
   margin-left: auto;
   margin-right: auto;
-  /* padding-top:100px; */
   padding-bottom: 40px;
   display: flex;
   justify-content: space-around;
   border-bottom: 8px solid #222222;
-  /* height: 500px; */
+  /* height: auto; */
 }
 
 .Banner_text > h1 {
-  font-size: 48px;
+  font-size: 50px;
+  line-height: 3.5rem;
 }
 
 .Banner_text > p {
-  font-size: 28px;
+  font-size: 26px;
+  line-height: 2rem;
+  margin-top: -18px;
 }
 
 .Banner_text {
   width: 70%;
   padding-left: 90px;
   padding-top: 100px;
+
 }
 
 .Banner_media > img {
@@ -127,4 +129,50 @@
   height: 290px;
   padding-top: 100px;
   padding-left: 80px;
+}
+
+.Banner_media {
+
+  height: 500px;
+
+}
+
+.Banner_media3 > img {
+  width: 90%;
+}
+
+.Download__Card {
+  display: flex;
+  border: 2px solid #404040;
+  padding: 2px;
+  align-items: center;
+  background-color: black; 
+  width: 400px;
+  height: 100px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 140px;
+  left: 45px;
+
+}
+
+.Download__Text {
+  margin-left: -70px;
+  margin-right: 100px;
+  white-space: nowrap;
+}
+
+.Download__Text > p {
+  color: #0074f0;
+  margin-top: -20px;
+}
+
+.Download__Image > img {
+  width: 35%;
+  margin-left: 20px;
+}
+
+.Download__Image2 > img {
+  width: 60%; 
+
 }

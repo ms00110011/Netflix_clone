@@ -34,9 +34,10 @@ export const WelcomePage = () => {
             id="filled-basic"
             label="Email address"
             variant="filled"
+            color="secondary"
           />
           <button className="Started__Button">
-            Get Started <ArrowForwardIosIcon sx={{ width: "0px" }} />{" "}
+            Get Started <ArrowForwardIosIcon sx={{ width: "0px" }} />
           </button>
         </div>
       </div>
@@ -50,7 +51,7 @@ export const WelcomePage = () => {
           </p>
         </div>
         <div className="Banner_media">
-        <video autoPlay playsInline loop>
+          <video autoPlay playsInline loop>
             <source
               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
               type="video/mp4"
@@ -60,7 +61,45 @@ export const WelcomePage = () => {
             src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
             alt=""
           />
+        </div>
+      </div>
 
+      <div
+        className="Banner2"
+        style={{ width: "100%", paddingTop: "40px", paddingBottom: "60px" }}
+      >
+        <div className="Banner_media3">
+          <img
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+            alt=""
+          />
+          <div className="Download__Card">
+            <div className="Download__Image">
+              <img
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
+                alt=""
+              />
+            </div>
+
+            <div className="Download__Text">
+              <h4>Stranger Things</h4>
+              <p>Downloading</p>
+            </div>
+
+            <div className="Download__Image2">
+              <img
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="Banner_text"
+          style={{ width: "50%", marginRight: "40px" }}
+        >
+          <h1>Download your shows to watch offline.</h1>
+          <p>Save your favourites easily and always have something to watch.</p>
         </div>
       </div>
     </div>
