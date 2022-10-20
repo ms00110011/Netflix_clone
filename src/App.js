@@ -13,6 +13,9 @@ function App() {
         // This is green.A700 as hex.
         main: "#FFA00A",
       },
+      back : {
+        main:"rgb(0, 0, 0)",
+      }
     },
   });
 
